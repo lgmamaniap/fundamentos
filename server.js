@@ -11,3 +11,5 @@ const server = http.createServer((req,res) => {
 server.listen(port,hostname, () => {
     console.log(`El servidor se esta ejecutando en http://${hostname}:${port}/`);
 });
+
+const msgPrueba = "mensaje de prueba";
